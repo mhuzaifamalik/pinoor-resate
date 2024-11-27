@@ -1,0 +1,141 @@
+<?php
+$page = 'home';
+$pageDesc = '""';
+include 'includes/header.php';
+$page = 'home';
+?>
+
+<main>
+
+    <style>
+        .accordion-item {
+            border-bottom: 1px solid #ccc;
+        }
+
+        .accordion-item-header {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+            padding: 30px 0px;
+        }
+
+        .accordion-item-header.active img {
+            transform: rotate(360deg);
+        }
+
+        .accordion-item-header h2 {
+            font-family: "Montserrat", sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 24px;
+        }
+
+        .accordion-item-header img {
+            height: 15px;
+            width: 15px;
+            object-fit: contain;
+            transform: rotate(180deg);
+            transition: transform 0.2s ease;
+        }
+
+        .accordion-item-body {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+        }
+
+        .accordion-item-body-content {
+            padding: 5px 80px 30px 0px;
+            display: flex;
+            flex-direction: column;
+            gap: 35px;
+        }
+
+        .accordion-item-body-content p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+        }
+    </style>
+
+    <section class="about-us-banner">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6">
+                    <h2 class="h2-theme">Our Team</h2>
+                    <div class="about-fiter">
+
+                        <ul>
+                            <li><a href="Ourmission.php">our mission</a></li>
+                            <li><a href="services.php">our services</a>
+                            </li>
+                            <li><a href="team.php">our team</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Team abouts-teams">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12">
+                    <div class="tecture-motive">
+                        <h4>Team</h4>
+                        <h2>meet our team</h2>
+                        <p>Our team is 100% committed to help you achieve your dreams and goals,
+                            with our experts accompanying you&nbsp;from search to settlement, anytime and
+                            anywhere.&nbsp; We are a
+                            local Melbourne real estate one-stop shop,&nbsp;
+                            providing a full range of services to Australian and international clients.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="custom-profile">
+                        <img src="images/profile/profile-1.png" class="img-fluid" alt="img">
+                        <h4>Ryan Fong</h4>
+                        <a href="#">
+                            view detail
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="custom-profile">
+                        <img src="images/profile/profile-2.png" class="img-fluid" alt="img">
+                        <h4>Charles Lam</h4>
+                        <a href="#">
+                            view detail
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="custom-profile">
+                        <img src="images/profile/profile-3.png" class="img-fluid" alt="img">
+                        <h4>Praveen Kumar</h4>
+                        <a href="#">
+                            view detail
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="custom-profile">
+                        <img src="images/profile/profile-4.png" class="img-fluid" alt="img">
+                        <h4>Catherine Cheah</h4>
+                        <a href="#">
+                            view detail
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <?php
+    include 'includes/footer.php';
+    $page = 'home';
+    ?>
+</main>

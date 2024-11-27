@@ -1,0 +1,161 @@
+<?php
+$page = 'home';
+$pageDesc = '""';
+include 'includes/header.php';
+$page = 'home';
+?>
+
+<main>
+
+    <style>
+    .accordion-item {
+        border-bottom: 1px solid #ccc;
+    }
+
+    .accordion-item-header {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        padding: 30px 0px;
+    }
+
+    .accordion-item-header.active img {
+        transform: rotate(360deg);
+    }
+
+    .accordion-item-header h2 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    .accordion-item-header img {
+        height: 15px;
+        width: 15px;
+        object-fit: contain;
+        transform: rotate(180deg);
+        transition: transform 0.2s ease;
+    }
+
+    .accordion-item-body {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+
+    .accordion-item-body-content {
+        padding: 5px 80px 30px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .accordion-item-body-content p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+    }
+    </style>
+
+    <section class="about-us-banner">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6">
+                    <h2 class="h2-theme">Pioneer Mission</h2>
+                    <div class="about-fiter">
+
+                        <ul>
+                            <li><a href="Ourmission.php">our mission</a></li>
+                            <li><a href="services.php">our services</a>
+                            </li>
+                            <li><a href="team.php">our team</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mission">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <h2 class="theme-left-mission">our mission</h2>
+                <div class="col-12 col-md-6">
+                    <div class="mission-part-1">
+                        <img src="images/ipad.jpg" class="img-fluid" alt="img">
+                    </div>
+
+                </div>
+                <!-- <div class="col-12 col-md-1"></div> -->
+                <div class="col-12 col-md-6">
+                    <div class="mission-part-2">
+                        <h2>your home our responsibility</h2>
+                        <p>At our core, we are dedicated to empowering individuals to make informed decisions in the
+                            realm of real estate. Our mission is to facilitate the discovery of the most suitable
+                            properties and amplify our clients’ success in real estate investments. We achieve this by
+                            offering personalized, one-on-one consulting services and crafting tailor-made solutions to
+                            meet our clients’ specific needs.
+                            We firmly believe in guiding our clients towards selecting the ideal property that aligns
+                            seamlessly with their unique requirements and long-term objectives. With a comprehensive
+                            understanding of their goals, purpose, and financial circumstances, we navigate the
+                            intricate landscape of real estate to ensure their journey leads to triumph.</p>
+                        <button class="button-theme">view more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center g-5 mt-5">
+
+
+                <!-- <div class="col-12 col-md-1"></div> -->
+                <div class="col-12 col-md-6">
+                    <div class="mission-part-2">
+                        <h2>your home our responsibility</h2>
+                        <p>At our core, we are dedicated to empowering individuals to make informed decisions in the
+                            realm of real estate. Our mission is to facilitate the discovery of the most suitable
+                            properties and amplify our clients’ success in real estate investments. We achieve this by
+                            offering personalized, one-on-one consulting services and crafting tailor-made solutions to
+                            meet our clients’ specific needs.
+                            We firmly believe in guiding our clients towards selecting the ideal property that aligns
+                            seamlessly with their unique requirements and long-term objectives. With a comprehensive
+                            understanding of their goals, purpose, and financial circumstances, we navigate the
+                            intricate landscape of real estate to ensure their journey leads to triumph.</p>
+                        <button class="button-theme">view more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="mission-part-1">
+                        <img src="images/noted.png" class="img-fluid" alt="img">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <?php
+    include 'includes/footer.php';
+    $page = 'home';
+    ?>
+</main>

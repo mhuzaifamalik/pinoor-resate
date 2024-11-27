@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Classy Vogue';
+    src: url('ClassyVogueRegular.woff2') format('woff2'),
+        url('ClassyVogueRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

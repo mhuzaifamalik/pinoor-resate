@@ -1,0 +1,390 @@
+<?php
+$page = 'Project';
+$pageDesc = '""';
+include 'includes/header.php';
+$page = 'Project';
+?>
+
+
+
+<main>
+    <section class="sell-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-12">
+                    <h2>properties</h2>
+
+                    <div class="sell-filter">
+                        <ul>
+                            <li id="metion-1">
+                                <input type="text" placeholder="Location ">
+                            </li>
+                            <li id="metion-2">
+                                <span></span>
+                                <input type="text" placeholder="Buy">
+                            </li>
+                            <li>
+
+                                <select name="cars" id="cars">
+                                    <option value="volvo">Min Price</option>
+                                    <option value="saab">Two</option>
+                                    <option value="mercedes">Three</option>
+                                </select>
+                            </li>
+                            <li><button><i class="fa-solid fa-magnifying-glass"></i></button></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="sellpage-place buypsge9763">
+        <div class="container">
+            <div class="row g-5">
+
+
+                <div class="col-12 col-md-4">
+                    <div class="buy-custom-place">
+                        <img src="images/sell/buy-56.png" class="img-fluid" alt="img">
+                        <a href="#">For Sale</a>
+                    </div>
+                    <div class="custom-place-1 buy-page-951">
+                        <h4 class="sing-sell">110/25-33 Wills Street, Melbourne VIC 3000</h4>
+                        <p><i class="fa-sharp fa-solid fa-location-dot"></i>&nbsp;Wills Court, 25-33, Wills Street,
+                            Melbourne, City of Melbourne, Victoria, 3000, Australia</p>
+                        <h5 class="sing-sell">From $375,000- $395,000</h5>
+                        <ul>
+                            <li><img src="images/icon/bed.png" class="img-fluid" alt="img"><span>1 bed</span></li>
+                            <li><img src="images/icon/bed.png" class="img-fluid" alt="img"><span>2 bed</span></li>
+                            <li><img src="images/icon/square.png" class="img-fluid" alt="img"><span>1200 sqft</span>
+                            </li>
+                        </ul>
+                        <div class="sell-place-holder buy-pageeees-951">
+
+                            <ul>
+                                <li><span>for sell</span></li>
+                                <li>
+                                    <ul>
+                                        <li><a href="#"><img src="images/icon/next-tap.png" alt="img"></a></li>
+                                        <li><a href="#"><img src="images/icon/copypest.png" alt="img"></a></li>
+                                        <li>
+                                            <a href="#"><img src="images/icon/heart.png" class="img-fluid"
+                                                    alt="img"></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="buy-custom-place">
+                        <img src="images/sell/buy-56.png" class="img-fluid" alt="img">
+                        <a href="#">For Sale</a>
+                    </div>
+                    <div class="custom-place-1 buy-page-951">
+                        <h4 class="sing-sell">110/25-33 Wills Street, Melbourne VIC 3000</h4>
+                        <p><i class="fa-sharp fa-solid fa-location-dot"></i>&nbsp;Wills Court, 25-33, Wills Street,
+                            Melbourne, City of Melbourne, Victoria, 3000, Australia</p>
+                        <h5 class="sing-sell">From $375,000- $395,000</h5>
+                        <ul>
+                            <li><img src="images/icon/bed.png" class="img-fluid" alt="img"><span>1 bed</span></li>
+                            <li><img src="images/icon/bed.png" class="img-fluid" alt="img"><span>2 bed</span></li>
+                            <li><img src="images/icon/square.png" class="img-fluid" alt="img"><span>1200 sqft</span>
+                            </li>
+                        </ul>
+                        <div class="sell-place-holder buy-pageeees-951">
+
+                            <ul>
+                                <li><span>for sell</span></li>
+                                <li>
+                                    <ul>
+                                        <li><a href="#"><img src="images/icon/next-tap.png" alt="img"></a></li>
+                                        <li><a href="#"><img src="images/icon/copypest.png" alt="img"></a></li>
+                                        <li>
+                                            <a href="#"><img src="images/icon/heart.png" class="img-fluid"
+                                                    alt="img"></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="buy-custom-place">
+                        <img src="images/sell/buy-56.png" class="img-fluid" alt="img">
+                        <a href="#">For Sale</a>
+                    </div>
+                    <div class="custom-place-1 buy-page-951">
+                        <h4 class="sing-sell">110/25-33 Wills Street, Melbourne VIC 3000</h4>
+                        <p><i class="fa-sharp fa-solid fa-location-dot"></i>&nbsp;Wills Court, 25-33, Wills Street,
+                            Melbourne, City of Melbourne, Victoria, 3000, Australia</p>
+                        <h5 class="sing-sell">From $375,000- $395,000</h5>
+                        <ul>
+                            <li><img src="images/icon/bed.png" class="img-fluid" alt="img"><span>1 bed</span></li>
+                            <li><img src="images/icon/bed.png" class="img-fluid" alt="img"><span>2 bed</span></li>
+                            <li><img src="images/icon/square.png" class="img-fluid" alt="img"><span>1200 sqft</span>
+                            </li>
+                        </ul>
+                        <div class="sell-place-holder buy-pageeees-951">
+
+                            <ul>
+                                <li><span>for sell</span></li>
+                                <li>
+                                    <ul>
+                                        <li><a href="#"><img src="images/icon/next-tap.png" alt="img"></a></li>
+                                        <li><a href="#"><img src="images/icon/copypest.png" alt="img"></a></li>
+                                        <li>
+                                            <a href="#"><img src="images/icon/heart.png" class="img-fluid"
+                                                    alt="img"></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+            <div class="row mt-5 g-5">
+
+
+                <div class="col-12 col-md-4">
+                    <div class="buy-custom-place">
+                        <img src="images/sell/buy-56.png" class="img-fluid" alt="img">
+                        <a href="#">For Sale</a>
+                    </div>
+                    <div class="custom-place-1 buy-page-951">
+                        <h4 class="sing-sell">110/25-33 Wills Street, Melbourne VIC 3000</h4>
+                        <p><i class="fa-sharp fa-solid fa-location-dot"></i>&nbsp;Wills Court, 25-33, Wills Street,
+                            Melbourne, City of Melbourne, Victoria, 3000, Australia</p>
+                        <h5 class="sing-sell">From $375,000- $395,000</h5>
+                        <ul>
+                            <li><img src="images/icon/bed.png" class="img-fluid" alt="img"><span>1 bed</span></li>
+                            <li><img src="images/icon/bed.png" class="img-fluid" alt="img"><span>2 bed</span></li>
+                            <li><img src="images/icon/square.png" class="img-fluid" alt="img"><span>1200 sqft</span>
+                            </li>
+                        </ul>
+                        <div class="sell-place-holder buy-pageeees-951">
+
+                            <ul>
+                                <li><span>for sell</span></li>
+                                <li>
+                                    <ul>
+                                        <li><a href="#"><img src="images/icon/next-tap.png" alt="img"></a></li>
+                                        <li><a href="#"><img src="images/icon/copypest.png" alt="img"></a></li>
+                                        <li>
+                                            <a href="#"><img src="images/icon/heart.png" class="img-fluid"
+                                                    alt="img"></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="buy-custom-place">
+                        <img src="images/sell/buy-56.png" class="img-fluid" alt="img">
+                        <a href="#">For Sale</a>
+                    </div>
+                    <div class="custom-place-1 buy-page-951">
+                        <h4 class="sing-sell">110/25-33 Wills Street, Melbourne VIC 3000</h4>
+                        <p><i class="fa-sharp fa-solid fa-location-dot"></i>&nbsp;Wills Court, 25-33, Wills Street,
+                            Melbourne, City of Melbourne, Victoria, 3000, Australia</p>
+                        <h5 class="sing-sell">From $375,000- $395,000</h5>
+                        <ul>
+                            <li><img src="images/icon/bed.png" class="img-fluid" alt="img"><span>1 bed</span></li>
+                            <li><img src="images/icon/bed.png" class="img-fluid" alt="img"><span>2 bed</span></li>
+                            <li><img src="images/icon/square.png" class="img-fluid" alt="img"><span>1200 sqft</span>
+                            </li>
+                        </ul>
+                        <div class="sell-place-holder buy-pageeees-951">
+
+                            <ul>
+                                <li><span>for sell</span></li>
+                                <li>
+                                    <ul>
+                                        <li><a href="#"><img src="images/icon/next-tap.png" alt="img"></a></li>
+                                        <li><a href="#"><img src="images/icon/copypest.png" alt="img"></a></li>
+                                        <li>
+                                            <a href="#"><img src="images/icon/heart.png" class="img-fluid"
+                                                    alt="img"></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="buy-custom-place">
+                        <img src="images/sell/buy-56.png" class="img-fluid" alt="img">
+                        <a href="#">For Sale</a>
+                    </div>
+                    <div class="custom-place-1 buy-page-951">
+                        <h4 class="sing-sell">110/25-33 Wills Street, Melbourne VIC 3000</h4>
+                        <p><i class="fa-sharp fa-solid fa-location-dot"></i>&nbsp;Wills Court, 25-33, Wills Street,
+                            Melbourne, City of Melbourne, Victoria, 3000, Australia</p>
+                        <h5 class="sing-sell">From $375,000- $395,000</h5>
+                        <ul>
+                            <li><img src="images/icon/bed.png" class="img-fluid" alt="img"><span>1 bed</span></li>
+                            <li><img src="images/icon/bed.png" class="img-fluid" alt="img"><span>2 bed</span></li>
+                            <li><img src="images/icon/square.png" class="img-fluid" alt="img"><span>1200 sqft</span>
+                            </li>
+                        </ul>
+                        <div class="sell-place-holder buy-pageeees-951">
+
+                            <ul>
+                                <li><span>for sell</span></li>
+                                <li>
+                                    <ul>
+                                        <li><a href="#"><img src="images/icon/next-tap.png" alt="img"></a></li>
+                                        <li><a href="#"><img src="images/icon/copypest.png" alt="img"></a></li>
+                                        <li>
+                                            <a href="#"><img src="images/icon/heart.png" class="img-fluid"
+                                                    alt="img"></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="main-news-sell-page">
+        <div class="container">
+            <div class="row pt-4">
+                <h2 class="sell802-news">News &amp; Insights</h2>
+                <div class="col-md-4">
+                    <div class="nehri-sell">
+                        <img class="img-fluid" src="images/sell/main-image.png" alt="no-img">
+                        <span>FEATURED NEWS</span>
+                        <h2>The art of designing romantic gardens with Ashley James</h2>
+                        <p><strong>Meet The Maker</strong> September 10</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="nehri-sell">
+                                <img class="img-fluid" src="images/sell/image1.png" alt="no-img">
+                                <span>FEATURED NEWS</span>
+                                <h2>Behind the design: A maximalist house by Flack Studio</h2>
+                                <p><strong>Meet The Maker</strong> September 10</p>
+                            </div>
+
+                        </div>
+                        <div class="col-6">
+                            <div class="nehri-sell">
+                                <img class="img-fluid" src="images/sell/image2.png" alt="no-img">
+                                <span>FEATURED NEWS</span>
+                                <h2>How to create a focal point in a space</h2>
+                                <p><strong>Meet The Maker</strong> September 10</p>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="row" style="margin-top: 45px;">
+                        <div class="col-6">
+                            <div class="nehri-sell">
+                                <img class="img-fluid" src="images/sell/image3.png" alt="no-img">
+                                <span>FEATURED NEWS</span>
+                                <h2>Behind the design: A maximalist house by Flack Studio</h2>
+                                <p><strong>Meet The Maker</strong> September 10</p>
+                            </div>
+
+                        </div>
+                        <div class="col-6">
+                            <div class="nehri-sell">
+                                <img class="img-fluid" src="images/sell/image4.png" alt="no-img">
+                                <span>FEATURED NEWS</span>
+                                <h2>How to create a focal point in a space</h2>
+                                <p><strong>Meet The Maker</strong> September 10</p>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sell-page-lopper">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12">
+                    <div class="loter">
+                        <img src="images/sell/seling-expection.png" class="img-fluid" alt="img">
+                        <h2>Explore</h2>
+                        <ul>
+                            <li>the pioneer mission</li>
+                            <li>Services</li>
+                            <li>Careers</li>
+                            <li>Foundation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <?php
+    include 'includes/footer.php';
+    $page = 'Sell';
+    ?>
+
+</main>

@@ -1,0 +1,439 @@
+<?php
+$page = 'home';
+$pageDesc = '""';
+include 'includes/header.php';
+$page = 'home';
+?>
+<main>
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2>Your Perfect Home<br>
+                        is Just a Click Away</h2>
+
+                    <div class="custom-filter">
+                        <ul>
+                            <li id="metion-1">
+                                <input type="text" placeholder="search address or suburb ">
+                            </li>
+                            <li id="metion-2">
+                                <span></span>
+                                <input type="text" placeholder="for sale">
+                            </li>
+                            <li>
+
+                                <select name="cars" id="cars">
+                                    <option value="volvo">filters</option>
+                                    <option value="saab">Saab</option>
+                                    <option value="mercedes">Mercedes</option>
+                                    <option value="audi">Audi</option>
+                                </select>
+                            </li>
+                            <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                        </ul>
+                    </div>
+                    <button>Request appraisal</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Team">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12">
+                    <div class="tecture-motive">
+                        <h4>Team</h4>
+                        <h2>meet our team</h2>
+                        <p>Our team is 100% committed to help you achieve your dreams and goals,
+                            with our experts accompanying you from search to settlement, anytime and anywhere.  We are a
+                            local Melbourne real estate one-stop shop, 
+                            providing a full range of services to Australian and international clients.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="custom-profile">
+                        <img src="images/profile/profile-1.png" class="img-fluid" alt="img">
+                        <h4>Ryan Fong</h4>
+                        <a href="#">
+                            view detail
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="custom-profile">
+                        <img src="images/profile/profile-3.png" class="img-fluid" alt="img">
+                        <h4>Charles Lam</h4>
+                        <a href="#">
+                            view detail
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="custom-profile">
+                        <img src="images/profile/profile-2.png" class="img-fluid" alt="img">
+                        <h4>Praveen Kumar</h4>
+                        <a href="#">
+                            view detail
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="custom-profile">
+                        <img src="images/profile/profile-4.png" class="img-fluid" alt="img">
+                        <h4>Catherine Cheah</h4>
+                        <a href="#">
+                            view detail
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6">
+                    <div class="explore-1">
+                        <h2>Explore</h2>
+                        <ul>
+                            <li>The Report FY25</li>
+                            <li>meet our team</li>
+                            <li>The Report FY25</li>
+                            <li>The Report FY25</li>
+                        </ul>
+                        <button>Contact</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="explore-2">
+                        <img src="images/bg/sidebar.png" class="img-fluid" alt="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="place">
+        <div class="container">
+            <div class="row g-5">
+                <h2 class="motion-h2">place we love</h2>
+                <div class="col-12 col-md-3">
+                    <div class="custom-place">
+                        <img src="images/place/1.png" class="img-fluid" alt="img">
+                        <span>$25,854 usd</span>
+                    </div>
+                    <div class="custom-place-1">
+                        <h4>CKE Buyer Agency</h4>
+                        <p>10 of Australia’s Economic Powerhouse Cities 2024</p>
+                        <ul>
+                            <li><img src="images/icon/bed.png" class="img-fluid" alt="img"><span>1 bed</span></li>
+                            <li><img src="images/icon/bed.png" class="img-fluid" alt="img"><span>2 bed</span></li>
+                            <li><img src="images/icon/square.png" class="img-fluid" alt="img"><span>1200 sqft</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="place-holder">
+
+                        <ul>
+                            <li><span>for sell</span></li>
+                            <li>
+                                <ul>
+                                    <li><a href="#"><img src="images/icon/next-tap.png" alt="img"></a></li>
+                                    <li><a href="#"><img src="images/icon/copypest.png" alt="img"></a></li>
+                                    <li>
+                                        <a href="#"><img src="images/icon/heart.png" class="img-fluid" alt="img"></a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="custom-place">
+                        <img src="images/place/2.png" class="img-fluid" alt="img">
+                        <span>$25,854 usd</span>
+                    </div>
+                    <div class="custom-place-1">
+                        <h4>CKE Buyer Agency</h4>
+                        <p>10 of Australia’s Economic Powerhouse Cities 2024</p>
+                        <ul>
+                            <li><img src="images/icon/bed.png" class="img-fluid" alt="img"><span>1 bed</span></li>
+                            <li><img src="images/icon/bed.png" class="img-fluid" alt="img"><span>2 bed</span></li>
+                            <li><img src="images/icon/square.png" class="img-fluid" alt="img"><span>1200 sqft</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="place-holder">
+
+                        <ul>
+                            <li><span>for sell</span></li>
+                            <li>
+                                <ul>
+                                    <li><a href="#"><img src="images/icon/next-tap.png" alt="img"></a></li>
+                                    <li><a href="#"><img src="images/icon/copypest.png" alt="img"></a></li>
+                                    <li>
+                                        <a href="#"><img src="images/icon/heart.png" class="img-fluid" alt="img"></a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="custom-place">
+                        <img src="images/place/3.png" class="img-fluid" alt="img">
+                        <span>$25,854 usd</span>
+                    </div>
+                    <div class="custom-place-1">
+                        <h4>CKE Buyer Agency</h4>
+                        <p>10 of Australia’s Economic Powerhouse Cities 2024</p>
+                        <ul>
+                            <li><img src="images/icon/bed.png" class="img-fluid" alt="img"><span>1 bed</span></li>
+                            <li><img src="images/icon/bed.png" class="img-fluid" alt="img"><span>2 bed</span></li>
+                            <li><img src="images/icon/square.png" class="img-fluid" alt="img"><span>1200 sqft</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="place-holder">
+
+                        <ul>
+                            <li><span>for sell</span></li>
+                            <li>
+                                <ul>
+                                    <li><a href="#"><img src="images/icon/next-tap.png" alt="img"></a></li>
+                                    <li><a href="#"><img src="images/icon/copypest.png" alt="img"></a></li>
+                                    <li>
+                                        <a href="#"><img src="images/icon/heart.png" class="img-fluid" alt="img"></a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="custom-place">
+                        <img src="images/place/4.png" class="img-fluid" alt="img">
+                        <span>$25,854 usd</span>
+                    </div>
+                    <div class="custom-place-1">
+                        <h4>CKE Buyer Agency</h4>
+                        <p>10 of Australia’s Economic Powerhouse Cities 2024</p>
+                        <ul>
+                            <li><img src="images/icon/bed.png" class="img-fluid" alt="img"><span>1 bed</span></li>
+                            <li><img src="images/icon/bed.png" class="img-fluid" alt="img"><span>2 bed</span></li>
+                            <li><img src="images/icon/square.png" class="img-fluid" alt="img"><span>1200 sqft</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="place-holder">
+
+                        <ul>
+                            <li><span>for sell</span></li>
+                            <li>
+                                <ul>
+                                    <li><a href="#"><img src="images/icon/next-tap.png" alt="img"></a></li>
+                                    <li><a href="#"><img src="images/icon/copypest.png" alt="img"></a></li>
+                                    <li>
+                                        <a href="#"><img src="images/icon/heart.png" class="img-fluid" alt="img"></a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <div class="row">
+                <h2 class="loper">Services</h2>
+                <div class="col-12 col-md-3">
+                    <div class="motion-graphic">
+                        <div class="images-services">
+                            <img src="images/services/1.png" class="img-fluid" alt="img">
+                        </div>
+                        <div class="text-service">
+                            <h2>real estate sales</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="motion-graphic">
+                        <div class="images-services">
+                            <img src="images/services/2.png" class="img-fluid" alt="img">
+                        </div>
+                        <div class="text-service">
+                            <h2>Property Management</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="motion-graphic">
+                        <div class="images-services">
+                            <img src="images/services/3.png" class="img-fluid" alt="img">
+                        </div>
+                        <div class="text-service">
+                            <h2>Short Stays</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="motion-graphic">
+                        <div class="images-services">
+                            <img src="images/services/4.png" class="img-fluid" alt="img">
+                        </div>
+                        <div class="text-service">
+                            <h2>Projects</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="our-project">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="mention-45">
+                        <h2>Our Project</h2>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="mention-78">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos
+                            trud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 col-md-4">
+                    <div class="mention-img">
+                        <img src="images/project/1.png" class="img-fluid" alt="img">
+                        <span><a href="#">view properties detail</a></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="mention-img">
+                        <img src="images/project/2.png" class="img-fluid" alt="img">
+                        <span><a href="#">view properties detail</a></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="mention-img">
+                        <img src="images/project/3.png" class="img-fluid" alt="img">
+                        <span><a href="#">view properties detail</a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 col-md-6">
+                    <div class="mention-img">
+                        <img src="images/project/4.png" class="img-fluid" alt="img">
+                        <span><a href="#">view properties detail</a></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="mention-img">
+                        <img src="images/project/5.png" class="img-fluid" alt="img">
+                        <span><a href="#">view properties detail</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main-news-sell-page">
+        <div class="container">
+            <div class="row pt-4">
+                <h2 class="sell802-news">News &amp; Insights</h2>
+                <div class="col-md-4">
+                    <div class="nehri-sell">
+                        <img class="img-fluid" src="images/sell/main-image.png" alt="no-img">
+                        <span>FEATURED NEWS</span>
+                        <h2>The art of designing romantic gardens with Ashley James</h2>
+                        <p><strong>Meet The Maker</strong> September 10</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="nehri-sell">
+                                <img class="img-fluid" src="images/sell/image1.png" alt="no-img">
+                                <span>FEATURED NEWS</span>
+                                <h2>Behind the design: A maximalist house by Flack Studio</h2>
+                                <p><strong>Meet The Maker</strong> September 10</p>
+                            </div>
+
+                        </div>
+                        <div class="col-6">
+                            <div class="nehri-sell">
+                                <img class="img-fluid" src="images/sell/image2.png" alt="no-img">
+                                <span>FEATURED NEWS</span>
+                                <h2>How to create a focal point in a space</h2>
+                                <p><strong>Meet The Maker</strong> September 10</p>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="row" style="margin-top: 45px;">
+                        <div class="col-6">
+                            <div class="nehri-sell">
+                                <img class="img-fluid" src="images/sell/image3.png" alt="no-img">
+                                <span>FEATURED NEWS</span>
+                                <h2>Behind the design: A maximalist house by Flack Studio</h2>
+                                <p><strong>Meet The Maker</strong> September 10</p>
+                            </div>
+
+                        </div>
+                        <div class="col-6">
+                            <div class="nehri-sell">
+                                <img class="img-fluid" src="images/sell/image4.png" alt="no-img">
+                                <span>FEATURED NEWS</span>
+                                <h2>How to create a focal point in a space</h2>
+                                <p><strong>Meet The Maker</strong> September 10</p>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="lopper">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12">
+                    <div class="loter">
+                        <img src="images/Group-5420.png" class="img-fluid" alt="img">
+                        <h2>Explore</h2>
+                        <ul>
+                            <li>the pioneer mission</li>
+                            <li>Services</li>
+                            <li>Careers</li>
+                            <li>Foundation</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <?php
+    include 'includes/footer.php';
+    $page = 'home';
+    ?>
+</main>

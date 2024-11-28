@@ -1,9 +1,4 @@
-<?php
-$page = 'home';
-$pageDesc = '""';
-include 'includes/header.php';
-$page = 'home';
-?>
+<%- include('./includes/header', { title: `Home - Pioneer Reality` }) %>
 
 <main>
 
@@ -69,10 +64,10 @@ $page = 'home';
                     <div class="about-fiter">
 
                         <ul>
-                            <li><a href="Ourmission.php">our mission</a></li>
-                            <li><a href="services.php">our services</a>
+                            <li><a href="/our-mission">our mission</a></li>
+                            <li><a href="/services">our services</a>
                             </li>
-                            <li><a href="team.php">our team</a></li>
+                            <li><a href="/team">our team</a></li>
                         </ul>
                     </div>
                 </div>
@@ -134,28 +129,5 @@ $page = 'home';
             </div>
         </div>
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <?php
-    include 'includes/footer.php';
-    $page = 'home';
-    ?>
+    <%- include('./includes/footer') %>
 </main>

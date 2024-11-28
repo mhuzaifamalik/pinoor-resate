@@ -1,9 +1,4 @@
-<?php
-$page = 'Project';
-$pageDesc = '""';
-include 'includes/header.php';
-$page = 'Project';
-?>
+<%- include('./includes/header', { title: `Home - Pioneer Reality` }) %>
 <style>
 #mention-holder {
     margin: 0px 0 !important;
@@ -518,8 +513,5 @@ $page = 'Project';
 
 
 
-    <?php
-    include 'includes/footer.php';
-    $page = 'Project';
-    ?>
+    <%- include('./includes/footer') %>
 </main>

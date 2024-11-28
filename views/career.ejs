@@ -1,9 +1,4 @@
-<?php
-$page = 'Buy';
-$pageDesc = '""';
-include 'includes/header.php';
-$page = 'Buy';
-?>
+<%- include('./includes/header', { title: `Home - Pioneer Reality` }) %>
 
 
 <main>
@@ -570,8 +565,5 @@ $page = 'Buy';
     </section>
 
 
-    <?php
-    include 'includes/footer.php';
-    $page = 'home';
-    ?>
+    <%- include('./includes/footer') %>
 </main>

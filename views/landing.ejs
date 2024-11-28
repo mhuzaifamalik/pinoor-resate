@@ -1,9 +1,4 @@
-<?php
-$page = 'Sell';
-$pageDesc = '""';
-include 'includes/header.php';
-$page = 'Sell';
-?>
+<%- include('./includes/header', { title: `Home - Pioneer Reality` }) %>
 
 <main>
     <style>
@@ -224,7 +219,7 @@ $page = 'Sell';
                             <span>Fill Out The Form! </span>
                         </h5>
                         <hr>
-                        <form action="process.php" method="POST">
+                        <form action="javascript:;" method="POST">
                             <div class="input-field">
                                 <label for="">Name</label>
                                 <input type="text" name="Name">
@@ -449,9 +444,5 @@ $page = 'Sell';
         </div>
     </section>
 
-
-    <?php
-    include 'includes/footer.php';
-    $page = 'Sell';
-    ?>
+    <%- include('./includes/footer') %>
 </main>

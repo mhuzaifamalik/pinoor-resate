@@ -2,25 +2,11 @@
 <html>
 
 <head>
-    <title>
-        <?php if (isset($page) && is_string($page)) {
-            echo $page;
-        } else {
-            echo 'Tawakkal Enterprises | Your Custom Clearance Experts Since 1985!';
-        } ?>
-    </title>
+    <title><%= title %></title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content=<?php if (isset($pageTag) && is_string($pageTag)) {
-                                        echo $pageTag;
-                                    } else {
-                                        echo 'desired tag';
-                                    } ?> />
-    <meta name="description" content=<?php if (isset($pageDesc) && is_string($pageDesc)) {
-                                            echo $pageDesc;
-                                        } else {
-                                            echo 'desired description';
-                                        } ?> />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
     <link rel="shortcut icon" href="images/fav.png" />
     <link href="https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -417,7 +403,7 @@
     <header class="header-main">
         <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="images/logo-large2.png" class="img-fluid" alt="img"></a>
+                <a class="navbar-brand" href="/"><img src="images/logo-large2.png" class="img-fluid" alt="img"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -427,16 +413,16 @@
                     <div class="collapse navbar-collapse " id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto ">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="index.php">home</a>
+                                <a class="nav-link" aria-current="page" href="/">home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="buy.php">buy</a>
+                                <a class="nav-link" href="/buy">buy</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="sell.php">sell</a>
+                                <a class="nav-link" href="/sell">sell</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="projects.php">projects</a>
+                                <a class="nav-link" href="/projects">projects</a>
                             </li>
 
 
@@ -511,7 +497,7 @@
                                         </li>
                                         <li data-image="images/agent.png">
 
-                                            <a href="projects.php">Projects</a>
+                                            <a href="/projects">Projects</a>
                                         </li>
 
                                     </ul>
@@ -556,7 +542,7 @@
                                     <h2>About Us</h2>
                                     <ul class="list-unstyled">
                                         <li data-image="images/agent.png">
-                                            <a href="services.php">services</a>
+                                            <a href="/services">services</a>
                                         </li>
                                         <li data-image="images/agent.png">
 
@@ -600,7 +586,7 @@
                                         </li>
                                         <li data-image="images/agent.png">
 
-                                            <a href="faqs.php">fAQ</a>
+                                            <a href="/faqs">fAQ</a>
                                         </li>
                                     </ul>
                                 </div>

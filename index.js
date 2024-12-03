@@ -79,6 +79,10 @@ app.get('/trusted-pilot', async (req, res) => {
     res.render('trusted-pilot')
 })
 
+app.get('/privacy-policy', async (req, res) => {
+    res.render('privacy-policy')
+})
+
 app.listen(PORT, () => {
     console.log(`App is live on: http://localhost:${PORT}/`)
 })
